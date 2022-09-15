@@ -126,4 +126,4 @@ salario = int;
 print("digite o salário: ")
 input(salario)
 salAumento = (salario + 0.05*salario - 0.07*salario)
-print(f"O salário a receber é {:.2f}" ={salAumento})
+print(f"O salário a receber é: " ={salAumento})
