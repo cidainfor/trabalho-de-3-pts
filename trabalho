@@ -1,0 +1,129 @@
+-------------------------------Prova------------------------------
+
+#primeira questao
+pi = float
+raio = float 
+area = float
+pi = 3,14
+print(f"digite o valor do  raio: ")
+area =(pi*raio *raio)
+print("a area do raio é: "= {area})
+
+#segunda questao
+num1 = float; num2 = float; result = float
+print("digite um numero maior que zero: ")
+input(num1)
+print("escreva outro numero maior que zero: ")
+input(num2)
+result = (num1 * num2)
+print(f"seu resultado é: " ={result})
+
+#terceira questao
+idade = int; anoAtual = int; nasc = int; sub = int
+print("digite seu ano de nascimeto: ")
+input(nasc)
+print(f"digite em que ano você está: ")
+input(anoAtual)
+idade = (anoAtual - nasc)
+sub =  (2050 - anoAtual)
+print(f"sua idade é:  " ={idade})
+print(f"em 2050 sua idade será: " ={sub})
+
+#quarta questao
+num1 = int; num2 = int; result = int
+print("digite um numero: ")
+input(num1)
+print("digite outro numero: ")
+input(num2)
+result = (num2 - num2)
+print(f"sua subtração é: " =[result])
+
+quinta questao
+num1 = int; num2 = int; num3 = int; result = int
+print(f"digite um numero: ")
+input(num1)
+print("digite um segundo numero: ")
+input(num2)
+print("digite um ultimo numero: ")
+input(num3)
+result = (num1 * num2 * num3)
+print(f"seu resultado é: " ={result})
+
+
+------------------------------Atividade---------------------------
+
+#primeira questao
+num1 = int; num2 = int; num3 = int; num4 = int; result = int
+print(f"digite um primeiro numero: ")
+input(num1)
+print(f"digite um segundo numero: ")
+input(num2)
+print(f"digite o terceiro numero: ")
+input(num3)
+print(f"digite um ultimo numero: ")
+input(num4)
+result = (num1 + num2 + num3 + num4)
+print(f"seu resultado é: " ={result})
+
+#segunda questao
+num1 = float; num2 = float; num3 = float, result = float
+print(f"digite a primeira nota: ")
+input(num1)
+print(f"digite a segunda nota: ")
+input(num2)
+print(f"digite a terceira nota: ")
+input(num3)
+result(num1 * num2 * num3)
+print(f"seu resultado é: " ={result})
+
+#terceira questao
+n1 = float, n2 = float; n3 = float; peso1 = float; peso2 = float; peso3 = float; somap = float; mediap = float
+print(f"digite o primeiro numero: ")
+input(n1)
+print(f"digite o primeiro peso: ")
+input(peso1)
+print(f"digite o segundo numero: ")
+input(n2)
+print(f"digite o segundo peso: ")
+input(peso2)
+print(f"digite a terceira nota: ")
+input(n3)
+print(f"digite o terceiro peso: ")
+input(peso3)
+somap = (peso1 + peso2 + peso3)
+mediap = (n1 + peso1) + (n2 + peso2) + (n3 + peso3)
+print(f"seu resultado é: " ={mediap})
+
+#quarta questao
+sal = float; salTotal = float
+print(f"informe seu salario: ")
+input(sal)
+salTotal = (sal * 1,25)
+print(f"seu salario sera de: " ={salTotal})
+
+#quinta questao
+sal = float; aumento = float; novoSal = float
+print(f"digite o novo valor do salário: ")
+input(sal)
+print(f"digite o valor do aumento em porcentagem: ")
+input(aumento)
+aumento = (aumento/100)*sal
+novoSal = (aumento + sal)
+print(f"o valor do aumento é: " ={aumento})
+print(f"o valor do novo salario é: " ={novoSal})
+
+#sexta questao
+area = int; base = int; altura = int
+print(f"digite a base do triangulo : ")
+input(base)
+print(f"digite a altura do triangulo: ")
+input(altura)
+area = (base * altura)/2
+print(f"a area  do triangulo é: " ={area})
+
+#setima questao
+salario = int;
+print("digite o salário: ")
+input(salario)
+salAumento = (salario + 0.05*salario - 0.07*salario)
+print(f"O salário a receber é {:.2f}" ={salAumento})
